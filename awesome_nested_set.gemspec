@@ -26,7 +26,6 @@ Gem::Specification.new do |s|
      "init.rb",
      "lib/awesome_nested_set.rb",
      "lib/awesome_nested_set/helper.rb",
-     "rails/init.rb",
      "test/application.rb",
      "test/awesome_nested_set/helper_test.rb",
      "test/awesome_nested_set_test.rb",
