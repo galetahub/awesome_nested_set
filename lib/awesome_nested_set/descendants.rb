@@ -12,10 +12,10 @@ module CollectiveIdea #:nodoc:
           !descendants_count.zero?
         end
 
-        def move_by_direction(ditection)
-          return if ditection.blank?
+        def move_by_direction(direction)
+          return if direction.blank?
 
-          case ditection.to_sym
+          case direction.to_sym
             when :up, :left then move_left
             when :down, :right then move_right
           end
